@@ -1,0 +1,9 @@
+{
+  "name": "Example UAE Services LLC",
+  "industry": "Professional Services",
+  "employees": 75,
+  "cloud_services": ["Microsoft 365", "Azure"],
+  "handles_payment_cards": false,
+  "remote_work": true
+}
+

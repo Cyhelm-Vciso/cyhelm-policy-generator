@@ -1,7 +1,6 @@
 # Security policy
 
-Use GitHub private vulnerability reporting for suspected vulnerabilities. Do not open public issues containing secrets, personal data, tenant identifiers, or exploitable details.
+Report vulnerabilities privately to `security@cyhelm.com`. Do not attach customer profiles, policies or credentials. The maintainers aim to acknowledge reports within three business days.
 
-The demonstration applications bind to 127.0.0.1, keep AI credentials server-side, limit prompt size, and retain no AI conversation history. Before production use, add authentication, authorization, tenant isolation, rate limits, durable audit storage, TLS, secret management, and connector-specific threat models.
+The MVP has no authentication, tenant isolation, persistent approval trail or document malware scanning. Put it behind an authenticated gateway and do not process regulated data until those controls exist.
 
-Synthetic fixtures are not production evidence.
